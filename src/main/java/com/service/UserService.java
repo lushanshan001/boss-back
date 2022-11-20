@@ -4,6 +4,7 @@ import com.doMain.User;
 
 public interface UserService {
 
+
     /**
      * 邮箱是否已注册
      * @param email

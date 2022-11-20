@@ -36,7 +36,6 @@ public class EmailSender {
                 return new PasswordAuthentication("954691927@qq.com", "qiuyavtamtfrbdie"); //发件人邮件用户名、密码
             }
         });
-
         try{
             // 创建默认的 MimeMessage 对象
             MimeMessage message = new MimeMessage(session);

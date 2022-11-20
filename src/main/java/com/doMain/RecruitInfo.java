@@ -9,4 +9,5 @@ public class RecruitInfo {
     private String position;//招聘岗位
     private int number;//招聘数量
     private String request;//招聘要求
+
 }

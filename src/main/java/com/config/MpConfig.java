@@ -19,4 +19,5 @@ public class MpConfig {
         mp.addInnerInterceptor(new OptimisticLockerInnerInterceptor());
         return mp;
     }
+
 }

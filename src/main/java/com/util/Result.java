@@ -64,6 +64,7 @@ public class Result<T> {
         result.setMsg("成功");
         return result;
     }
+
     public static Result error(Integer code,String msg){
         Result result = new Result();
         result.setCode(code);

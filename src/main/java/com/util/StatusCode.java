@@ -8,7 +8,6 @@ public enum StatusCode {
     EMAIL_HAS_EXIST(140,"邮箱已注册"),
     LOGIN_SUCCESS(150, "登录成功"),
     LOGIN_FAIL(151, "登录失败"),
-
     ;
 
 

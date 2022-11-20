@@ -11,4 +11,5 @@ public class ApplyInfo {
     private String position;//应聘职位
     private String address;//简历地址
     private int status;//状态
+
 }
