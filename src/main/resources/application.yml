@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+  main:
+    banner-mode: off
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    banner: false
+#    db-config:
+#      logic-delete-field: deleted #???
+#      logic-delete-value: 0
+#      logic-not-delete-value: 1
+#    db-config:
+#      id-type: assign_id
+
